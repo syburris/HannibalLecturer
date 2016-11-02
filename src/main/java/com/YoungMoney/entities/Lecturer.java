@@ -7,7 +7,7 @@ import javax.persistence.*;
  */
 @Entity
 @Table(name = "lectures")
-public class Lecture {
+public class Lecturer {
 
     @Id
     @GeneratedValue
@@ -22,10 +22,10 @@ public class Lecture {
     @Column(nullable = false)
     String image;
 
-    public Lecture() {
+    public Lecturer() {
     }
 
-    public Lecture(String name, String topic, String image) {
+    public Lecturer(String name, String topic, String image) {
         this.name = name;
         this.topic = topic;
         this.image = image;

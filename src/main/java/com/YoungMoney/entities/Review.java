@@ -23,6 +23,6 @@ public class Review {
     boolean isGood;
 
     @ManyToOne
-    Lecture lecture;
+    Lecturer lecturer;
 
 }
