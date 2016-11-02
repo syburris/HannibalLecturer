@@ -19,7 +19,7 @@ public class Review {
     @Column(nullable = false)
     String text;
 
-    @Column(nullable = false)
+    @Transient
     boolean isGood;
 
     @ManyToOne
